@@ -13,6 +13,7 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
+    contactNumber:"",
   });
 
   const [loading, setLoading] = useState(false);
@@ -33,16 +34,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_l3v3i25",
+        "template_wrfrqod",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Joseph Silvester",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "silvester3412@gmail.com",
           message: form.message,
+          contactNumber: form.contactNumber,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "AnnHSQ6Z0assPsP-T"
       )
       .then(
         () => {
@@ -50,9 +52,10 @@ const Contact = () => {
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
-            name: "",
-            email: "",
-            message: "",
+            name:"",
+            email:"",
+            message:"",
+            contactNumber:"",
           });
         },
         (error) => {
@@ -99,6 +102,17 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+            />
+          </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your number</span>
+            <input
+              type='number'
+              name='contactNumber'
+              value={form.contactNumber}
+              onChange={handleChange}
+              placeholder="What's your number?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
