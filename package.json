@@ -5,12 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "npm start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
