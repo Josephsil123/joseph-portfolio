@@ -1,9 +1,12 @@
 {
   "name": "3dfolio",
+  "homepage": "https://Josephsil123.github.io/joseph-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
