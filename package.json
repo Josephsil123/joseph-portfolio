@@ -1,13 +1,10 @@
 {
-  "homepage":"https://Josephsil312.github.io/portfolioreact",
   "name": "3dfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
