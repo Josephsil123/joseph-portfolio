@@ -122,10 +122,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining mobile applications using React native and other related technologies.",
+      "Utilized Redux for state management and Redux Thunk for asynchronous actions.",
+      "Utilized Firebase Authentication and Firestore for user management and data storage.",
     ],
   },
 ];
