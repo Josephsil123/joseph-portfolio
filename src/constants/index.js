@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Course",
   },
   {
     id: "contact",
@@ -103,28 +103,62 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "DreamOrbit",
-    icon: starbucks,
+    title: "Introduction to Web Development",
+    company_name: "HTML,CSS & Javascript",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "April 2021 - May 2022",
+    date: "4-5 months",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "HTML elements",
+      "HTML attributes, headings",
+      "Paragraphs & styles",
+      "Images & ID",
+      "Forms",
+      "Colors & Backgrounds",
+      "Borders, Margin & Padding",
+      "Height, width",
+      "Fonts, links & display",
+      "Syntax,statement",
+      "Variables(let & const)",
+      "Operators",
+      "Data types & functions",
+      "Strings & methods",
+      "Arrays & methods",
+      "Loops",
+      "Conditional statements"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "DreamOrbit",
-    icon: tesla,
+    title: "Mobile App Development",
+    company_name: "React native",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "June 2022 - Present",
+    date: "4-5 months",
     points: [
-      "Developing and maintaining mobile applications using React native and other related technologies.",
-      "Utilized Redux for state management and Redux Thunk for asynchronous actions.",
-      "Utilized Firebase Authentication and Firestore for user management and data storage.",
+      "Introduction",
+      "Installation & setup",
+      "View, Text & Image",
+      "TextInput,Scrollview",
+      "Stylesheet & Button",
+      "Flatlist & Sectionlist"
+    ],
+  },
+  {
+    title: "Introduction to Python",
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    date: "3-4 months",
+    points: [
+      "Syntax",
+      "Variables & Datatypes",
+      "Numbers & strings",
+      "Boolean, casting",
+      "Operators",
+      "List & Tuples",
+      "Sets",
+      "Dictionary",
+      "Conditional statements",
+      "Loops"
     ],
   },
 ];
@@ -158,46 +192,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "In this project, students will design and develop a responsive portfolio website that showcases their skills, projects, and personal brand. Through this hands-on project, students will learn the fundamentals of HTML, CSS, and JavaScript while gaining practical experience in creating a professional and visually appealing online presence.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    
   },
   {
-    name: "Job IT",
+    name: "Registration forms",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "In this project, students will design and develop a user registration form that's pretty much common in websites. The registration form serves as a crucial component of any online platform, enabling users to create personalized profiles and access various features and services.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    
+  },
+  {
+    name: "Todo list",
+    description:
+      "In this project, students will develop a TodoList app using React Native, a popular framework for building native mobile applications. The TodoList app allows users to create, manage, and organize their tasks and helps them stay organized and productive.",
+    tags: [
+      {
+        name: "React native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styles",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: starbucks,
   },
   {
     name: "Tip Calculator",
@@ -216,6 +266,42 @@ const projects = [
     image: tripguide,
     source_code_link: "https://play.google.com/store/apps/details?id=com.Tip.Calculator14",
   },
+  {
+    name: "Rock,Paper & scissors",
+    description:
+      "In this project, students will build a classic Rock, Paper, Scissors game using Python. The game allows the user to play against the computer in a series of rounds, where they select either rock, paper, or scissors, and the computer randomly chooses its move. This simple yet entertaining game tests the user's decision-making skills and luck.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: creator,
+    
+  },
+  {
+    name: "Currency converter",
+    description:
+      "In this project, students will develop a currency converter program in Python that allows users to convert Indian Rupees (INR) to US Dollars (USD). The program provides a simple and convenient way to perform currency conversion calculations accurately and efficiently.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: backend,
+    
+  },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
