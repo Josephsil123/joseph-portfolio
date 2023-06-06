@@ -35,7 +35,6 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -79,7 +78,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following are the projects that students will be developing under the intructor's supervision. This includes all the projects taught in Introduction to Web Development, Android App Development & Python courses.
+          Following are the projects that students will be developing under the instructor's supervision. This includes all the projects taught in Introduction to Web Development, Android App Development & Python courses.
         </motion.p>
       </div>
 
