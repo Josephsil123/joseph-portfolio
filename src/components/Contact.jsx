@@ -130,11 +130,16 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-4'
           >
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div>
+        <span className='text-white font-medium mb-10'>Or call on +91-7338438842</span>
+       <p>silvester3412@gmail.com</p>
+        </div>
+        
       </motion.div>
 
       <motion.div
